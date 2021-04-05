@@ -1,0 +1,93 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    position: absolute;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 6px;
+}
+
+#navbar ul li{
+    border-bottom: 1px solid #fff;
+}
+
+#navbar ul li:hover{
+    border-bottom: 1px solid #28a745;
+}
+
+#navbar ul li a:hover{
+    color: #28a745;
+}
+
+#about .flex-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.solutions .row{
+    display: flex;
+    flex-direction: column;
+}
+
+.solutions .row .column .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solutions .row .column .column-2 p{
+    text-align: center;
+}
+
+#cases .row{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grid .column{
+    padding: 4px 4px;
+    flex: 1;
+    max-width: 100%;
+}
+
+#blog .row{
+    display: flex;
+    flex-direction: column;
+}
+
+#blog .row .column .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog .row .column .column-2 p{
+    text-align: center;
+}
+
+#team .flex-items{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+#contact .row{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .row .column .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.hero .content{
+    padding-top: 400px;
+}
